@@ -31,10 +31,15 @@ function myBin(newList, n)
         {
             return left + 1;
         }
-        else if ( n === newList[mid] ){
+        else if ( n === newList[mid] )
+        {
             return mid ;
+        }
+        else
+        {
+            return "Number doesnt exist";
         }
      }
 }
 
-console.log(myBin([7,5,3,6],3))
+console.log(myBin([7,5,3,4,8,1,6],8))
