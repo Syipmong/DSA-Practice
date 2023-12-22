@@ -22,6 +22,19 @@ function myBin(newList, n)
     var right = newList.length -1;
     while(left <= right)
      {
-        var mid = 
+        var mid = Math.floor((left + right)/2);
+        if(n < newList[mid])
+        {
+            return right -1;
+        }
+        else if( n > newList[mid])
+        {
+            return left + 1;
+        }
+        else if ( n === newList[mid] ){
+            return mid ;
+        }
      }
 }
+
+console.log(myBin([7,5,3,6],3))
