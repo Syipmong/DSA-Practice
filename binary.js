@@ -15,7 +15,7 @@ function bin(list, num){
     }
 }
 
-console.log(bin([4,5,6,7,8,9,2,1], 1)); // 2</s>
+// console.log(bin([4,5,6,7,8,9,2,1], 1)); 
 
 
 function myBin(newList, n)
@@ -44,6 +44,37 @@ function myBin(newList, n)
      }
 }
 
-console.log(myBin([7,5,3,4,8,1,6],8))
+// console.log(myBin([7,5,3,4,8,1,6],8))
 
-console.log(bin([7,5,3,4,8,1,6],5))
+
+function myBin(newList, n) 
+{
+    let left = 0;
+    let right = newList.length - 1;
+    while (left <= right) 
+    {
+        let mid = Math.floor((left + right) / 2);
+        if (n < newList[mid]) 
+        {
+            right = mid - 1;
+            return right;
+        }
+        else if (n > newList[mid]) 
+        {
+            left = mid + 1;
+            return left;
+        } 
+        else if (n === newList[mid]) 
+        {
+            return mid;
+        }
+    }
+    return `Number doesn't exist ${n}`;
+}
+
+console.log(myBin([7, 5, 3, 4, 8, 1, 6], 8));
+
+
+
+
+// console.log(bin([7,5,3,4,8,1,6],5))
