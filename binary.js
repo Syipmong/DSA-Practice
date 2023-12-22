@@ -14,4 +14,14 @@ function bin(list, num){
         }
     }
 }
-console.log(bin([4,6,8,9,13], 9)); 
+
+
+function myBin(newList, n)
+{
+    var left = 0;
+    var right = newList.length -1;
+    while(left <= right)
+     {
+        var mid = 
+     }
+}
