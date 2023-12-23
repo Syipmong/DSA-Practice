@@ -72,9 +72,11 @@ function myBin(newList, n)
     return `Number ${n} doesn't exist`;
 }
 
-console.log(myBin([15, 8, 2, 11, 19, 6, 4, 10, 5, 14, 1, 13, 7, 20, 3, 12, 18, 9, 17, 16], 2));
+// console.log(myBin([15, 8, 2, 11, 19, 6, 4, 10, 5, 14, 1, 13, 7, 20, 3, 12, 18, 9, 17, 16], 2));
 
 
 
 
 // console.log(bin([7,5,3,4,8,1,6],5))
+
+// we had some inefficiency in our previous binary search and now we are to improve it
