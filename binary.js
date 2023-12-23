@@ -81,3 +81,9 @@ function myBin(newList, n)
 
 // we had some inefficiency in our previous binary search and now we are to improve it
 //we will be sorting our data to improve the efficiency of our data structure
+
+
+function newBin(mylist, n)
+{
+    return 1;
+}
