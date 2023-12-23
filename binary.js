@@ -80,3 +80,4 @@ function myBin(newList, n)
 // console.log(bin([7,5,3,4,8,1,6],5))
 
 // we had some inefficiency in our previous binary search and now we are to improve it
+//we will be sorting our data to improve the efficiency of our data structure
