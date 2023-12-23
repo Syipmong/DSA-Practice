@@ -85,7 +85,33 @@ function myBin(newList, n)
 
 function newBin(mylist, n)
 {
-    let left = 0;
-    let right = mylist.length() -1;
     //sorting the array using quick sort method
+    let _sorted = mylist.sort();
+    let left = 0;
+    let right = _sorted.length -1;
+
+    while (left <= right)
+     {
+        let mid = Math.floor((left + right)/ 2);
+        if (n === _sorted[mid] ) 
+        {
+         return mid;   
+        }
+        else if(n > _sorted[mid])
+        {
+            return right ;
+        }
+        else if (n < _sorted[mid])
+        {
+            return left;
+        }
+        else
+        {
+            return `The number ${n} is not found in the list ${mylist}`;
+        }
+     }
+    
+
 }
+console.log(newBin([7,5,3,4,8,1,6],4));
+
