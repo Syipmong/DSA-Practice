@@ -85,5 +85,7 @@ function myBin(newList, n)
 
 function newBin(mylist, n)
 {
-    return 1;
+    let left = 0;
+    let right = mylist.length() -1;
+    //sorting the array using quick sort method
 }
