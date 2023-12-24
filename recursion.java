@@ -5,6 +5,6 @@ public class recursion {
     {
         RecursionLoop myrec = new RecursionLoop();
 
-        System.out.println(myrec.doRecursion(5));
+        System.out.println(myrec.doRecursion(4));
     }
 }

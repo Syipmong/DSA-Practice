@@ -18,12 +18,8 @@ def verify(index):
     return f"Index not found"
 
 
-
-
-
-
-
 numbers = [1,2,3,4,5,6,7,8,11]
 result = binary_search(numbers,12)
 
 print(verify(result))
+
