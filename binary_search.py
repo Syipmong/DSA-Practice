@@ -11,7 +11,19 @@ def binary_search(list, value):
             right = mid -1
     return None
 
-numbers = [1,2,3,4,5,6,7,8]
 
-print(binary_search(numbers,9))
+def verify(index):
+    if index is not None:
+        return f"Index found at {index}"
+    return f"Index not found"
 
+
+
+
+
+
+
+numbers = [1,2,3,4,5,6,7,8,11]
+result = binary_search(numbers,12)
+
+print(verify(result))
