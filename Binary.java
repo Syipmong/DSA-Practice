@@ -6,6 +6,10 @@ public class Binary {
         this.list = list;
         this.value = value;
 
+        int left = 0;
+        int right;
+
+
     }
 
     public void verifyValue(int index){
