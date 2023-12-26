@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Welcome to my Data Structures and Algorithms project! This repository serves as a comprehensive resource for understanding and implementing various data structures and algorithms. The focus, at the moment, has been on Binary Search Trees (BST), with an exploration of Big O notation, emphasizing O(n) and O(log n) complexities.
+Welcome to my Data Structures and Algorithms project! This repository serves as a comprehensive resource for understanding and implementing various data structures and algorithms. The focus, at the moment, has been on Binary Search Trees (BST), Singly LinkedList and Doubly LinkedList with an exploration of Big O notation, emphasizing O(n) and O(log n) complexities.
 
 ## Table of Contents
 
