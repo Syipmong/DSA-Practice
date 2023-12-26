@@ -12,5 +12,12 @@ def recursive_binary(list, value):
                 return recursive_binary(list[:mid],value)
     return False
 
+
+
+def verify(bool):
+    if bool == True:
+        return "Index Found"
+    return "Index Not found"
+
+
 list = [1,2,3,4,5,6,7,8]
-print(recursive_binary(list, 1))
