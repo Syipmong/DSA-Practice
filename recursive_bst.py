@@ -21,3 +21,7 @@ def verify(bool):
 
 
 list = [1,2,3,4,5,6,7,8]
+
+result = recursive_binary(list,1)
+
+print(verify(result))
