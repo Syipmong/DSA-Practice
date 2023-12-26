@@ -9,6 +9,8 @@ Welcome to my Data Structures and Algorithms project! This repository serves as 
   - [Implementation](#implementation)
     - [Iterative BST](#iterative-bst)
     - [Recursive BST](#recursive-bst)
+  - [Linear Search Algorithm](#linear-search-algorithm)
+  - [Recursion Algorithm](#recursion-algorithm)
   - [Complexity Analysis](#complexity-analysis)
     - [O(n) Complexity](#on-complexity)
     - [O(log n) Complexity](#olog-n-complexity)
@@ -29,6 +31,14 @@ The Iterative BST implementation in Python lays the foundation for understanding
 #### Recursive BST
 
 The Recursive BST implementation, also in Python, delves into the inherent beauty of recursive methodologies when dealing with tree structures. The code reflects an abstraction that aligns with the intrinsic nature of recursive problem-solving.
+
+#### Linear Search Algorithm
+
+In addition to tree-based structures, this project includes a Linear Search Algorithm, showcasing the simplicity and efficiency of searching in a linear collection.
+
+#### Recursion Algorithm
+
+Explore the power of recursion in the included Recursion Algorithm. This section provides a hands-on understanding of recursive principles applied to problem-solving.
 
 ### Complexity Analysis
 
