@@ -9,6 +9,13 @@ class Node:
     def __repr__(self):
         return f"Node: {self.data}"
 
+
+class LinkedList:
+    head = None
+
+    def __init__(self):
+        self.head = None
+
 n1 = Node(10)
 print(n1)
 n1.next_node = 20
