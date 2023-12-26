@@ -3,15 +3,15 @@ def linear_search(list, value):
         if list[i] == value:
             return i
     return None
-
+        
 def verify_search(index):
-    if index is not None:
-        print("index found at: ", index)
+    if index != None:
+        return f"Index found at: {index}"
     else:
-        print("Index not found")
+        return "Index Not Found"
 
 
 list = [1,2,3,4,5,6,7,8]
 
-result = linear_search(list, 10)
-print(verify_search(list))
+result = linear_search(list, 9)
+print(verify_search(result))
