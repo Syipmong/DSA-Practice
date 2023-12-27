@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Welcome to my Data Structures and Algorithms project! This repository serves as a comprehensive resource for understanding and implementing various data structures and algorithms. The focus, at the moment, has been on Binary Search Trees (BST), Singly LinkedList and Doubly LinkedList with an exploration of Big O notation, emphasizing O(n) and O(log n) complexities.
+Welcome to my Data Structures and Algorithms project! This repository serves as a comprehensive resource for understanding and implementing various data structures and algorithms. The focus, at the moment, has been on Binary Search Trees (BST), Singly LinkedList, Doubly LinkedList, and the Merge Sort algorithm with an exploration of Big O notation, emphasizing O(n) and O(log n) complexities.
 
 ## Table of Contents
 
@@ -9,6 +9,9 @@ Welcome to my Data Structures and Algorithms project! This repository serves as 
   - [Implementation](#implementation)
     - [Iterative BST](#iterative-bst)
     - [Recursive BST](#recursive-bst)
+  - [Singly LinkedList](#singly-linkedlist)
+  - [Doubly LinkedList](#doubly-linkedlist)
+  - [Merge Sort Algorithm](#merge-sort-algorithm)
   - [Linear Search Algorithm](#linear-search-algorithm)
   - [Recursion Algorithm](#recursion-algorithm)
   - [Complexity Analysis](#complexity-analysis)
@@ -32,6 +35,18 @@ The Iterative BST implementation in Python lays the foundation for understanding
 
 The Recursive BST implementation, also in Python, delves into the inherent beauty of recursive methodologies when dealing with tree structures. The code reflects an abstraction that aligns with the intrinsic nature of recursive problem-solving.
 
+#### Singly LinkedList
+
+The Singly LinkedList implementation showcases a linear data structure where elements are linked sequentially. Operations such as insertion and traversal are explored in this section.
+
+#### Doubly LinkedList
+
+The Doubly LinkedList implementation extends the concept of linked lists by adding backward pointers. This bidirectional linkage enhances traversal and certain manipulation operations.
+
+#### Merge Sort Algorithm
+
+The Merge Sort Algorithm section introduces a divide-and-conquer approach to sorting. Learn how this algorithm efficiently sorts a list by recursively dividing it into smaller segments, sorting them, and then merging them back together.
+
 #### Linear Search Algorithm
 
 In addition to tree-based structures, this project includes a Linear Search Algorithm, showcasing the simplicity and efficiency of searching in a linear collection.
@@ -52,7 +67,7 @@ In contrast, the Recursive BST implementation underscores the efficiency of well
 
 ### Next Steps
 
-As this project unfolds, the exploration will extend beyond the confines of Binary Search Trees. Future endeavors include delving into advanced data structures like AVL trees and navigating through algorithms that underpin essential operations such as sorting and searching. Expect continuous updates as the journey into the captivating realm of Data Structures and Algorithms continues!
+As this project unfolds, the exploration will extend beyond the confines of Binary Search Trees and Linked Lists. Future endeavors include delving into advanced data structures like AVL trees and navigating through algorithms that underpin essential operations such as sorting and searching. Expect continuous updates as the journey into the captivating realm of Data Structures and Algorithms continues!
 
 Feel free to peruse the codebase, provide constructive feedback, or reach out with any queries or suggestions.
 
