@@ -1,12 +1,13 @@
-class Queue:
+class Queeue:
 
     def __init__(self):
         self.items = []
 
     def enqueue(self,item):
         """Add an element to the end of the queue"""
-        self.items.append(item)
-        print("added")
+        self.item = item
+        self.items.append(self.item)
+        
 
     def dequeue(self):
         """Remove and return the first item in the queue"""
@@ -24,5 +25,19 @@ class Queue:
     
     def is_empty(self):
         """Check if the queue is empty or not"""
+        return len(self.items) == 0
+    
+    def display(self):
+        """Print all elements in the queue"""
 
    
+
+q = Queeue()
+q.enqueue(10)
+q.enqueue(15)
+q.enqueue(7)
+q.dequeue()
+q.dequeue()
+q.dequeue()
+print(q.size())
+print(q.is_empty())
