@@ -17,6 +17,7 @@ class LinkedList:
 
     def empty(self):
         """Return True if the list is empty."""
+        return self.head == None
         
 
 
