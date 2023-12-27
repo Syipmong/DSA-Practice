@@ -1,4 +1,4 @@
-class Queeue:
+class Queue:
 
     def __init__(self):
         self.items = []
@@ -32,7 +32,7 @@ class Queeue:
 
    
 
-q = Queeue()
+q = Queue()
 q.enqueue(10)
 q.enqueue(15)
 q.enqueue(11)
