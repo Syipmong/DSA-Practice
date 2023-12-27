@@ -29,6 +29,8 @@ class Queue:
     def display(self):
         """Print all elements in the queue"""
         return self.items
+    def front(self):
+        return self.items[-1]
 
    
 
@@ -39,6 +41,7 @@ q.enqueue(11)
 q.enqueue(100)
 q.enqueue(7)
 print(q.display())
+print(q.front())
 print(q.size())
 q.dequeue()
 q.dequeue()
