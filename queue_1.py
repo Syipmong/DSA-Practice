@@ -16,5 +16,13 @@ class Queue:
     
     def size(self):
         """Return the number of items in the queue"""
+        self.count = 0
+        for i in self.items:
+            self.count +=1
+            return self.count
+        return f"Queue is empty"
+    
+    def is_empty(self):
+        """Check if the queue is empty or not"""
 
    
