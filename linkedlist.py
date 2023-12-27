@@ -42,3 +42,5 @@ n2 = Node(20)
 n1.next_node = n2
 
 print(f"Next node of n1 is :{n1.next_node}")
+
+l = LinkedList()
