@@ -12,15 +12,14 @@ class Queeue:
     def dequeue(self):
         """Remove and return the first item in the queue"""
         if len(self.items) != 0:
-            self.items.pop(0)
+            self.items.pop(-1)
         return f"List is empty"
     
     def size(self):
         """Return the number of items in the queue"""
         self.count = 0
-        for i in self.items:
-            self.count +=1
-            return self.count
+        while self.item != 0:
+            return len(self.items)
         return f"Queue is empty"
     
     def is_empty(self):
@@ -29,15 +28,22 @@ class Queeue:
     
     def display(self):
         """Print all elements in the queue"""
+        return self.items
 
    
 
 q = Queeue()
 q.enqueue(10)
 q.enqueue(15)
+q.enqueue(11)
+q.enqueue(100)
 q.enqueue(7)
+print(q.display())
+print(q.size())
 q.dequeue()
 q.dequeue()
+print(q.display())
 q.dequeue()
+print(q.display())
 print(q.size())
 print(q.is_empty())
