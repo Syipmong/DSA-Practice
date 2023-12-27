@@ -11,15 +11,18 @@ class Node:
 
 
 class LinkedList:
-    head = None
 
     def __init__(self):
         self.head = None
 
-
-
-
+    def empty(self):
+        """Return True if the list is empty."""
         
+
+
+
+
+
 
 n1 = Node(10)
 print(n1)
