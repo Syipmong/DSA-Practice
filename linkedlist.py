@@ -18,6 +18,14 @@ class LinkedList:
     def is_empty(self):
         """Return True if the list is empty."""
         return self.head == None
+
+    def size(self):
+        current = self.head
+        count = 0
+        while current:
+            count += 1
+            current = self.next_node
+        return count
         
 
 
