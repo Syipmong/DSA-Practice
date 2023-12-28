@@ -11,7 +11,7 @@ class Node:
 
 
 class LinkedList:
-
+    """Implementation for the LinkedList"""
     def __init__(self):
         self.head = None
 
@@ -24,23 +24,26 @@ class LinkedList:
         count = 0
         while current:
             count += 1
-            current = self.next_node
+            current = current.next_node
         return count
-        
+         
+    def add(self,data):
+        new_node = Node(data)
+        new_node.next_node = self.head
+        self.head = new_node
+        return self.head
+
+    
 
 
 
 
 
-
-n1 = Node(10)
-print(n1)
-print(f"Next node of n1 is :{n1.next_node}")
-
-n2 = Node(20)
-
-n1.next_node = n2
-
-print(f"Next node of n1 is :{n1.next_node}")
 
 l = LinkedList()
+
+l.add(20)
+l.add(10)
+l.add(22)
+l.add(90)
+print(l.size())
