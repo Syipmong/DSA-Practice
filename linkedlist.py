@@ -16,6 +16,21 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+
+    def __repr__(self):
+        """Return a string representation of the list."""
+        nodes = []
+        current = self.head
+        while current:
+            if current is self.head:
+                nodes.append(f"[Head: {current.data}]")
+            elif current.next_node is None:
+                nodes.append(f"[Tail: {current.data}]")
+            else:
+                nodes.append(f"[{current.data}]")
+            current = current.next_node
+        return '-> '.join(nodes)
+
     def is_empty(self):
         """Return True if the list is empty."""
         return self.head == None
@@ -50,3 +65,4 @@ l.add(10)
 l.add(22)
 l.add(90)
 print(l.size())
+print(l)
