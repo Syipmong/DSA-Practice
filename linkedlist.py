@@ -76,3 +76,6 @@ l.add(22)
 l.add(90)
 print(l.size())
 print(l)
+
+print(l.search(22))
+print(l.search(100))
