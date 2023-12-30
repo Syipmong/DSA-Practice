@@ -1,4 +1,5 @@
 class Node:
+    """Implementation for the Node"""
     data = None
     next_node = None
 
@@ -20,6 +21,7 @@ class LinkedList:
         return self.head == None
 
     def size(self):
+        """Return the number of nodes in the list."""
         current = self.head
         count = 0
         while current:
@@ -28,6 +30,7 @@ class LinkedList:
         return count
          
     def add(self,data):
+        """Add a new node at the head of the list."""
         new_node = Node(data)
         new_node.next_node = self.head
         self.head = new_node

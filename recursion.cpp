@@ -1,3 +1,5 @@
+#include <iostream>
+
 int main()
 {
     // Declare variables of type integer and float.
@@ -6,5 +8,5 @@ int main()
     // Print the value of 'num1' to the console using printf function with format specifier %d.
     std::cout<<"Hello";
     // Print the value of 'num2' to the console using printf function with format specifier %.2f. This will display only two decimal
-    return 0
+    return 0;
 }
