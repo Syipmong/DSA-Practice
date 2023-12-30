@@ -40,6 +40,22 @@ class LinkedList:
                 return current
             current = current.next_node
         return None
+    
+    def insert(self, data, index):
+        """Insert a new node with the given data at the given index."""
+        if index == 0:
+            self.add(data)
+        if index > 0:
+            new = Node(data)
+            position = index
+            current = self.head
+            while position > 1:
+                current = Node.next_node
+                position -= 1
+            prev_node = current
+            next_node = current.next_node
+            prev_node.next_node = new
+            new.next_node = next_node
 
     def is_empty(self):
         """Return True if the list is empty."""
