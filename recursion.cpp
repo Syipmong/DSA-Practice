@@ -10,3 +10,5 @@ int main()
     // Print the value of 'num2' to the console using printf function with format specifier %.2f. This will display only two decimal
     return 0;
 }
+
+

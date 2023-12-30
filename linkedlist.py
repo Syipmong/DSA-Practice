@@ -30,6 +30,16 @@ class LinkedList:
                 nodes.append(f"[{current.data}]")
             current = current.next_node
         return '-> '.join(nodes)
+    
+
+    def search(self,value):
+        """Search the linked list for a node with the requested value and return the node."""
+        current = self.head
+        while current:
+            if current.data == value:
+                return current
+            current = current.next_node
+        return None
 
     def is_empty(self):
         """Return True if the list is empty."""
