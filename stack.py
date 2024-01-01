@@ -11,6 +11,10 @@ class Stack:
         """Pops an element from the stack"""
         return self.items.pop()
     
+    def peek(self):
+        """Returns the top element of the stack"""
+        return self.items[-1]
+    
 
 
 s1 = Stack()
