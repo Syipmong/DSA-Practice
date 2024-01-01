@@ -1,4 +1,5 @@
 class Stack:
+    """A simple implementation of a stack"""
     def __init__(self):
         self.items = []
 
