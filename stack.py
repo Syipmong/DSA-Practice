@@ -7,4 +7,5 @@ class Stack:
         self.items.append(item)
 
     def pop(self):
+        """Pops an element from the stack"""
         return self.items.pop()
