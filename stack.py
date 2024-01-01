@@ -3,6 +3,7 @@ class Stack:
         self.items = []
 
     def push(self, item):
+        """Pushes an element to the stack"""
         self.items.append(item)
 
     def pop(self):
