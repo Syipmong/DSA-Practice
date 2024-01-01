@@ -12,7 +12,7 @@ Welcome to my Data Structures and Algorithms project! This repository serves as 
   - [Singly LinkedList](#singly-linkedlist)
   - [Doubly LinkedList](#doubly-linkedlist)
   - [Queue](#queue)
-  - [Stack](#stack)  <!-- Updated -->
+  - [Stack](#stack)  
   - [Merge Sort Algorithm](#merge-sort-algorithm)
   - [Linear Search Algorithm](#linear-search-algorithm)
   - [Recursion Algorithm](#recursion-algorithm)
@@ -49,7 +49,7 @@ The Doubly LinkedList implementation extends the concept of linked lists by addi
 
 The Queue section introduces the basic operations of a queue, a linear data structure following the First In, First Out (FIFO) principle. Learn about enqueue, dequeue, front, isEmpty, and size operations.
 
-#### Stack  <!-- Updated -->
+#### Stack  
 
 The Stack section explores the Last In, First Out (LIFO) data structure. Learn about push, pop, peek, isEmpty, and size operations. Stacks are widely used in various applications, including managing function calls, parsing expressions, and undo functionality.
 
