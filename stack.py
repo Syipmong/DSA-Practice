@@ -15,6 +15,15 @@ class Stack:
         """Returns the top element of the stack"""
         return self.items[-1]
     
+    
+    def is_empty(self):
+        """Checks if the stack is empty"""
+        return self.items == []
+    
+    def size(self):
+        """Returns the size of the stack"""
+        return len(self.items)
+    
 
 
 s1 = Stack()
