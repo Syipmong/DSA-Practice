@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Welcome to my Data Structures and Algorithms project! This repository serves as a comprehensive resource for understanding and implementing various data structures and algorithms. The focus, at the moment, has been on Binary Search Trees (BST), Singly LinkedList, Doubly LinkedList, Queue, and the Merge Sort algorithm with an exploration of Big O notation, emphasizing O(n) and O(log n) complexities.
+Welcome to my Data Structures and Algorithms project! This repository serves as a comprehensive resource for understanding and implementing various data structures and algorithms. The focus, at the moment, has been on Binary Search Trees (BST), Singly LinkedList, Doubly LinkedList, Queue, Stack, and the Merge Sort algorithm with an exploration of Big O notation, emphasizing O(n) and O(log n) complexities.
 
 ## Table of Contents
 
@@ -12,6 +12,7 @@ Welcome to my Data Structures and Algorithms project! This repository serves as 
   - [Singly LinkedList](#singly-linkedlist)
   - [Doubly LinkedList](#doubly-linkedlist)
   - [Queue](#queue)
+  - [Stack](#stack)  <!-- Updated -->
   - [Merge Sort Algorithm](#merge-sort-algorithm)
   - [Linear Search Algorithm](#linear-search-algorithm)
   - [Recursion Algorithm](#recursion-algorithm)
@@ -48,6 +49,10 @@ The Doubly LinkedList implementation extends the concept of linked lists by addi
 
 The Queue section introduces the basic operations of a queue, a linear data structure following the First In, First Out (FIFO) principle. Learn about enqueue, dequeue, front, isEmpty, and size operations.
 
+#### Stack  <!-- Updated -->
+
+The Stack section explores the Last In, First Out (LIFO) data structure. Learn about push, pop, peek, isEmpty, and size operations. Stacks are widely used in various applications, including managing function calls, parsing expressions, and undo functionality.
+
 #### Merge Sort Algorithm
 
 The Merge Sort Algorithm section introduces a divide-and-conquer approach to sorting. Learn how this algorithm efficiently sorts a list by recursively dividing it into smaller segments, sorting them, and then merging them back together.
@@ -72,7 +77,7 @@ In contrast, the Recursive BST implementation underscores the efficiency of well
 
 ### Next Steps
 
-As this project unfolds, the exploration will extend beyond the confines of Binary Search Trees, Linked Lists, and Queues. Future endeavors include delving into advanced data structures like AVL trees and navigating through algorithms that underpin essential operations such as sorting and searching. Expect continuous updates as the journey into the captivating realm of Data Structures and Algorithms continues!
+As this project unfolds, the exploration will extend beyond the confines of Binary Search Trees, Linked Lists, Queues, and Stacks. Future endeavors include delving into advanced data structures like AVL trees and navigating through algorithms that underpin essential operations such as sorting and searching. Expect continuous updates as the journey into the captivating realm of Data Structures and Algorithms continues!
 
 Feel free to peruse the codebase, provide constructive feedback, or reach out with any queries or suggestions.
 

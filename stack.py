@@ -40,5 +40,7 @@ s1.push(10)
 print(s1.items)
 s1.pop()
 s1.pop()
+s1.pop()
+print(s1.peek())
 
 print(s1.items)
