@@ -33,3 +33,11 @@ def merge(left, right):
         right_index += 1
 
     return merged
+
+
+
+list = [5,3,1,9,8,4,3,0,5,2]
+
+print(merge_sort(list))
+
+# Output: [0, 1, 2, 3, 3, 4, 5, 5, 8, 9]
