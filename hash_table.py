@@ -43,4 +43,15 @@ class HashTable:
         raise KeyError(f"Key '{key}' not found in the hash table.")
 
 
-# Path: test_hash_table.py
+hash_1 = HashTable()
+
+hash_1.insert("a", 1)
+hash_1.insert("b", 2)
+hash_1.insert("c", 3)
+hash_1.insert("d", 4)
+hash_1.insert("e", 5)
+hash_1.insert("f", 6)
+hash_1.insert("g", 7)
+hash_1.insert("h", 8)
+hash_1.insert("i", 9)
+hash_1.insert("j", 10)
