@@ -67,3 +67,16 @@ print(hash_1.get("a"))
 print(hash_1.get("b"))
 print(hash_1.get("c"))
 
+hash_1.remove("a")
+hash_1.remove("b")
+hash_1.remove("c")
+
+print(hash_1.get("a"))
+print(hash_1.get("b"))
+print(hash_1.get("c"))
+
+hash_1.insert("a", 1)
+hash_1.insert("b", 2)
+hash_1.insert("c", 3)
+
+print(hash_1.get("a"))
