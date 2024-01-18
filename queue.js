@@ -1,3 +1,6 @@
+/**
+ * Represents a Queue data structure.
+ */
 class Queue{
 
     constructor(){
