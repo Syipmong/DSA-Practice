@@ -16,6 +16,30 @@ class Box{
         this.l3 = l3;
         this.l4 = l4;
     }
+    edges(){
+        this.edges.push(this.l1);
+        this.edges.push(this.l2);
+        this.edges.push(this.l3);
+        this.edges.push(this.l4);
+    }
+    faces(){
+        this.faces.push(this.l1);
+        this.faces.push(this.l2);
+        this.faces.push(this.l3);
+        this.faces.push(this.l4);
+    }
+    // insert at a given index
+    insert(index, value){
+        if(index >= this.length){
+            return this.append(value);
+        }
+        const newNode = {value: value, next: null};
+        const leader = this.traverseToIndex(index-1);
+        const holdingPointer = leader.next;
+        leader.next = newNode;
+        newNode.next = holdingPointer;
+        this.length++;
+    }
 
-    
+
 }
