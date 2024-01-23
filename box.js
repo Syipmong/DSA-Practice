@@ -60,6 +60,17 @@ class Box{
         }
         return currentNode;
     }
+    // print the linked list
+    printList(){
+        const array = [];
+        let currentNode = this.head;
+        while(currentNode !== null){
+            array.push(currentNode.value);
+            currentNode = currentNode.next;
+        }
+        return array;
+    }
+    
 
 
 }
