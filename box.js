@@ -40,6 +40,16 @@ class Box{
         newNode.next = holdingPointer;
         this.length++;
     }
+    // remove at a given index
+    remove(index){
+        if(index >= this.length){
+            return;
+        }
+        const leader = this.traverseToIndex(index-1);
+        const unwantedNode = leader.next;
+        leader.next = unwantedNode.next;
+        this.length--;
+    }
 
 
 }
