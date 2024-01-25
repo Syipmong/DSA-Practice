@@ -70,7 +70,13 @@ class Box{
         }
         return array;
     }
-    
+
 
 
 }
+
+// Path: line.js
+
+const box = new Box();
+
+console.log(box.printList())
