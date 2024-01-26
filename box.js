@@ -80,3 +80,5 @@ class Box{
 const box = new Box();
 
 console.log(box.printList())
+
+var test;
