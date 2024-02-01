@@ -81,3 +81,4 @@ const box = new Box();
 
 console.log(box.printList())
 
+Int32Array
